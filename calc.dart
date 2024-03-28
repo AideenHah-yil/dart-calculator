@@ -17,6 +17,9 @@ void main() {
     double num1 = numberInput();
     String operand = operandInput();
     double num2 = numberInput();
+    
+    double result = 0.0;
+
     switch (operand) {
         case "+":
             result = num1 + num2;
