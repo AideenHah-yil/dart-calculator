@@ -19,16 +19,16 @@ void main() {
     double num2 = numberInput();
     switch (operand) {
         case "+":
-            print(num1 + num2);
+            result = num1 + num2;
             break;
         case "-":
-            print(num1 - num2);
+            result = num1 - num2;
             break;
         case "*":
-            print(num1 * num2);
+            result = num1 * num2;
             break;
         case "/":
-            print(num1 / num2);
+            result = num1 / num2;
             break;
         default:
             print("Invalid operation");
